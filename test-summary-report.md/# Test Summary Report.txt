@@ -1,0 +1,29 @@
+# Test Summary Report
+
+## Project Name
+E-commerce Website Manual Testing
+
+## Test Execution Summary
+A total of 8 test cases were prepared and executed for the core features of the application.
+
+## Modules Tested
+- User Registration
+- User Login
+- Product Search
+- Add to Cart
+- Checkout
+
+## Results
+- Total Test Cases: 8
+- Passed: 7
+- Failed: 1
+- Blocked: 0
+
+## Defects Identified
+- BUG_001: Login button does not respond after entering valid credentials
+
+## Overall Assessment
+The application is mostly functional for the tested modules, but the login issue is critical because it affects user access. This defect should be resolved before release.
+
+## Recommendation
+Retest the login module after the fix and perform regression testing on related authentication flows.

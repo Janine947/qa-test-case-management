@@ -1,0 +1,108 @@
+# Test Cases
+
+## Module: User Registration
+
+### TC_001 - Verify user can register with valid details
+**Precondition:** User is on the registration page  
+**Steps:**
+1. Enter valid full name
+2. Enter valid email address
+3. Enter valid password
+4. Click Register
+
+**Expected Result:**  
+User account is created successfully and user is redirected to the login page or dashboard.
+
+---
+
+### TC_002 - Verify error message for missing email
+**Precondition:** User is on the registration page  
+**Steps:**
+1. Enter full name
+2. Leave email field empty
+3. Enter password
+4. Click Register
+
+**Expected Result:**  
+System should display an error message indicating that email is required.
+
+---
+
+## Module: User Login
+
+### TC_003 - Verify login with valid credentials
+**Precondition:** User account already exists  
+**Steps:**
+1. Open login page
+2. Enter valid email
+3. Enter valid password
+4. Click Login
+
+**Expected Result:**  
+User is successfully logged in and redirected to the dashboard or homepage.
+
+---
+
+### TC_004 - Verify login with invalid password
+**Precondition:** User account already exists  
+**Steps:**
+1. Open login page
+2. Enter valid email
+3. Enter invalid password
+4. Click Login
+
+**Expected Result:**  
+System displays an error message saying login failed or password is incorrect.
+
+---
+
+## Module: Product Search
+
+### TC_005 - Verify product search returns results
+**Precondition:** User is on homepage  
+**Steps:**
+1. Enter a valid product name in the search bar
+2. Click search
+
+**Expected Result:**  
+Relevant products should be displayed.
+
+---
+
+### TC_006 - Verify search with invalid product name
+**Precondition:** User is on homepage  
+**Steps:**
+1. Enter a product name that does not exist
+2. Click search
+
+**Expected Result:**  
+System should display a message such as "No products found."
+
+---
+
+## Module: Add to Cart
+
+### TC_007 - Verify user can add a product to cart
+**Precondition:** User is on product page  
+**Steps:**
+1. Select a product
+2. Click Add to Cart
+
+**Expected Result:**  
+Selected product should be added to the cart successfully.
+
+---
+
+## Module: Checkout
+
+### TC_008 - Verify user can complete checkout with valid details
+**Precondition:** Product already added to cart  
+**Steps:**
+1. Open cart
+2. Click Checkout
+3. Enter valid shipping details
+4. Enter valid payment details
+5. Confirm order
+
+**Expected Result:**  
+Order should be placed successfully and confirmation message should appear.

@@ -1,0 +1,42 @@
+# Bug Report
+
+## Bug ID
+BUG_001
+
+## Title
+Login button does not respond after entering valid credentials
+
+## Module
+User Login
+
+## Environment
+- OS: Windows 10
+- Browser: Google Chrome
+- Build Version: 1.0
+
+## Severity
+High
+
+## Priority
+High
+
+## Preconditions
+User is on the login page and has valid credentials.
+
+## Steps to Reproduce
+1. Open the login page
+2. Enter valid email address
+3. Enter valid password
+4. Click the Login button
+
+## Expected Result
+User should be logged in successfully and redirected to the dashboard or homepage.
+
+## Actual Result
+Nothing happens after clicking the Login button.
+
+## Status
+Open
+
+## Notes
+This issue blocks users from accessing their accounts and should be fixed urgently.

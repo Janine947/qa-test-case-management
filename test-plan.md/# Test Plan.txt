@@ -1,0 +1,48 @@
+# Test Plan
+
+## Project Name
+E-commerce Website Manual Testing
+
+## Objective
+To verify that the main features of the e-commerce website work as expected and provide a smooth user experience.
+
+## Scope of Testing
+The following modules will be tested:
+- User Registration
+- User Login
+- Product Search
+- Add to Cart
+- Checkout
+
+## Testing Type
+- Functional Testing
+- UI Testing
+- Usability Testing
+- Regression Testing
+
+## Test Environment
+- OS: Windows 10
+- Browser: Google Chrome
+- Device: Desktop/Laptop
+- Internet Connection: Stable broadband
+
+## Entry Criteria
+- Application is accessible
+- Test environment is ready
+- Test data is available
+
+## Exit Criteria
+- All critical test cases are executed
+- Major defects are reported
+- Test summary report is completed
+
+## Risks
+- Application downtime
+- Incomplete requirements
+- Browser compatibility issues
+
+## Deliverables
+- Test Plan
+- Test Cases
+- Bug Report
+- Test Summary Report
